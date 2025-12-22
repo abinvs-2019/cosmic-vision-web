@@ -229,6 +229,8 @@ export default function App() {
         .animate-float { animation: float 6s ease-in-out infinite; }
         
         .animate-pulse-slow { animation: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
+        .animate-spin-slow { animation: spin 8s linear infinite; }
+        @keyframes spin { 100% { transform: rotate(360deg); } }
       `}</style>
 
       <CosmicBackground />
